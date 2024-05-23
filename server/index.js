@@ -13,7 +13,7 @@ Connection();
 
 const io = new Server(PORT, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://real-time-document-editor.onrender.com",
     methods: ["GET", "POST"],
   },
 });
