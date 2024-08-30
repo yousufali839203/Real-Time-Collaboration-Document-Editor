@@ -42,7 +42,9 @@ const Editor = () => {
   }, []);
 
   useEffect(() => {
-    const socketServer = io("https://real-time-document-editor.onrender.com");
+    const socketServer = io(
+      "https://real-time-collaboration-document-editor.onrender.com"
+    );
     setSocket(socketServer);
 
     return () => {
